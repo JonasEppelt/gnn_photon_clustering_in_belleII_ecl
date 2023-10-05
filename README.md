@@ -2,7 +2,7 @@
 
 This repository contains the code used in the paper "Photon Reconstruction in the Belle II Calorimeter Using Graph Neural Networks (https://arxiv.org/abs/2306.04179).
 
-[![DOI](https://zenodo.org/badge/700713254.svg)](https://zenodo.org/badge/latestdoi/700713254)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8409638.svg)](https://doi.org/10.5281/zenodo.8409638)
 
 ## Datasets
 
