@@ -2,6 +2,8 @@
 
 This repository contains the code used in the paper "Photon Reconstruction in the Belle II Calorimeter Using Graph Neural Networks (https://arxiv.org/abs/2306.04179).
 
+[![DOI](https://zenodo.org/badge/700713254.svg)](https://zenodo.org/badge/latestdoi/700713254)
+
 ## Datasets
 
 Two example datasets are provided in `./data` as pandas dataframes stored as `single_photon_data.parquet` and `two_photon_data.parquet`. The datasets contain, respectively, 100 events of isolated photons and 100 events of overlapping photons.
