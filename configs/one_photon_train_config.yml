@@ -1,0 +1,39 @@
+val_ratio: 0.1
+lr: 0.0005
+epochs: 50
+val_batch_size: 256
+val_step: 20
+num_workers: 4
+early_stopping: True
+patience: 15
+
+n_photons: 1 
+n_events: 10000
+features: [
+            "rec_energy",
+            "rec_time",
+            "psd_norm",
+            "chi2_norm",
+            "fit_type",
+            "theta_norm",
+            "phi_sin_norm",
+            "phi_cos_norm",
+            "local_theta_norm",
+            "local_phi_norm",
+            "mass_norm",
+            "rec_energy_norm",
+            "center_id",
+        ]
+
+dense_layer_dim: 22
+feature_space_dim: 16
+spatial_information_dim: 6
+k: 14
+batch_norm_momentum: 0.01
+n_gravblocks: 4
+batch_size: 1024
+
+delta: 0.001
+checkpoint_path: "."
+checkpoint_filename: "one_photon_checkpoint.pt"
+model_path: "./models/one_photon_trained_model.pt"
